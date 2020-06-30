@@ -240,6 +240,7 @@ int         listar_do_seu_jeito(Lista* l, int(*f)(void*))
 
 Node*       primeiro(Lista* l)
 {
+    if (l == NULL) return NULL;
     return l->inicio;
 };  // ultimo()
 
